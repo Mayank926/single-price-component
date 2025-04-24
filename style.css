@@ -1,0 +1,131 @@
+html {
+    box-sizing : border-box;
+    font-family : 'Karla';
+    font-size : 16px;
+    font-weight: 400;
+  }
+  
+  body {
+    padding : 20px;
+  }
+  
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }
+  
+  #mainContainer {
+    width : 600px;
+    height : 425px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    box-shadow: 3px 4px 7px 0px rgba(0,0,0,0.34);
+  }
+  
+  #hdr {
+    padding: 20px;
+    width : 100%;
+    height : 45%;
+    background-color: #FFFFFF;
+    border-top-left-radius : 10px;
+    border-top-right-radius : 10px;
+  }
+  
+  #bottom {
+    width : 100%;
+    height : 55%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+  
+  #ftrLeft {
+    padding: 20px;
+    display: inline-block;
+    width : 50%;
+    height:100%;
+    vertical-align: top;
+    background-color : #2AB2AF;
+    border-bottom-left-radius: 10px;
+  }
+  
+  #ftrRight {
+    padding: 20px;
+    display: inline-block;
+    width : 50%;
+    height : 100%;
+    vertical-align: top;
+    background-color : #1CC3C0;
+    border-bottom-right-radius: 10px;
+  }
+  
+  li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    opacity: 0.7;
+  }
+  
+  ol {
+    padding: 0;
+    margin : 0;
+  }
+  
+  
+  h3, h2, p {
+    margin : 0;
+  }
+  
+  button {
+    background-color: #C0DF34;
+    color: #FFFFFF;
+    width : 90%;
+    margin-top : 20px;
+    border : none;
+    height : 18%;
+    border-radius: 5px;
+    box-shadow: 3px 4px 7px 0px rgba(0,0,0,0.34);
+  }
+  
+  #bottom p,h3,li {
+    color : #FFFFFF
+  }
+  
+  #yellowP{
+    color : #C0DF34;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #perMonth {
+    display : inline-block;
+    font-size: 0.8rem;
+    position: relative;
+    top : -3px;
+    left : 8px;
+    opacity: 0.7;
+  }
+  
+  #Dlr {
+    font-weight: 700;
+    font-size : 1.4rem;
+    display : inline-block;
+    margin-bottom : 5px;
+  }
+  
+  #communityHdr{
+    margin-bottom : 20px;
+    color: #2AB2AF
+  }
+  
+  .greyText {
+    color: #98A6BD
+  }
+  
+  #ftrLeft h3 {
+    margin-bottom : 15px;
+  }
+  
+  #fullAcc {
+    font-size: 0.8rem;
+  }
